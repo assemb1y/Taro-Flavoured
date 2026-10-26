@@ -6,6 +6,6 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 
 public class ModBlockTags {
-    public static final TagKey<Block> MATTOCK_MINEABLE =
+    public static final TagKey<Block> DOLABRA_MINEABLE =
             TagKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath("taro-flavoured", "mattock_mineable"));
 }

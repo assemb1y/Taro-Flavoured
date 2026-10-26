@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "M": "#minecraft:stone_tool_materials",
+    "M": "minecraft:iron_ingot",
     "S": "minecraft:stick"
   },
   "pattern": [
@@ -11,6 +11,6 @@
     " S "
   ],
   "result": {
-    "id": "taro-flavoured:stone_mattock"
+    "id": "taro-flavoured:iron_dolabra"
   }
 }

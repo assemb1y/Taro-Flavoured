@@ -10,8 +10,8 @@ import org.jspecify.annotations.NonNull;
 
 import java.util.Map;
 
-public class MattockItem extends Item {
-    private static final Map<Block, Block> MATTOCK_MAP =
+public class DolabraItem extends Item {
+    private static final Map<Block, Block> DOLABRA_MAP =
             Map.of(
                     Blocks.ACACIA_LOG, Blocks.STRIPPED_ACACIA_LOG,
                     Blocks.BIRCH_LOG, Blocks.STRIPPED_BIRCH_LOG,
@@ -25,7 +25,7 @@ public class MattockItem extends Item {
                     Blocks.SPRUCE_LOG, Blocks.STRIPPED_SPRUCE_LOG
             );
 
-    public MattockItem(Item.Properties properties) {
+    public DolabraItem(Item.Properties properties) {
         super(properties);
     }
 
@@ -34,8 +34,8 @@ public class MattockItem extends Item {
         Level level = context.getLevel();
         Block clickedBlock = level.getBlockState(context.getClickedPos()).getBlock();
 
-        if (MATTOCK_MAP.containsKey(clickedBlock) && !level.isClientSide()) {
-            level.setBlockAndUpdate(context.getClickedPos(), MATTOCK_MAP.get(clickedBlock).defaultBlockState());
+        if (DOLABRA_MAP.containsKey(clickedBlock) && !level.isClientSide()) {
+            level.setBlockAndUpdate(context.getClickedPos(), DOLABRA_MAP.get(clickedBlock).defaultBlockState());
 
             assert context.getPlayer() != null;
             context.getItemInHand().hurtAndBreak(1, context.getPlayer(), context.getHand().asEquipmentSlot());

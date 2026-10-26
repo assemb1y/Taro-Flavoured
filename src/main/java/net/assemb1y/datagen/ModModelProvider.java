@@ -17,12 +17,12 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(net.minecraft.client.data.models.ItemModelGenerators itemModelGenerators) {
-        itemModelGenerators.generateFlatItem(ModItems.WOODEN_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.STONE_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.COPPER_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.IRON_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.GOLDEN_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.DIAMOND_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
-        itemModelGenerators.generateFlatItem(ModItems.NETHERITE_MATTOCK, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.WOODEN_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.STONE_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.COPPER_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.IRON_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.GOLDEN_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.DIAMOND_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.NETHERITE_DOLABRA, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 }

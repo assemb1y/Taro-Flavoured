@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "taro-flavoured:golden_mattock"
+        "recipes": "taro-flavoured:golden_dolabra"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "taro-flavoured:golden_mattock"
+      "taro-flavoured:golden_dolabra"
     ]
   }
 }

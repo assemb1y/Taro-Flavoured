@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "taro-flavoured:iron_mattock"
+        "recipes": "taro-flavoured:copper_dolabra"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "taro-flavoured:iron_mattock"
+      "taro-flavoured:copper_dolabra"
     ]
   }
 }

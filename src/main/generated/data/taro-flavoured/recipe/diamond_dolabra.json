@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "M": "minecraft:iron_ingot",
+    "M": "minecraft:diamond",
     "S": "minecraft:stick"
   },
   "pattern": [
@@ -11,6 +11,6 @@
     " S "
   ],
   "result": {
-    "id": "taro-flavoured:iron_mattock"
+    "id": "taro-flavoured:diamond_dolabra"
   }
 }

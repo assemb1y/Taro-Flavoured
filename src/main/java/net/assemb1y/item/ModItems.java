@@ -22,26 +22,26 @@ public class ModItems {
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TaroFlavoured.MOD_ID, name)))));
     }
 
-    public static final Item WOODEN_MATTOCK = registerItem("wooden_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.WOOD, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item WOODEN_DOLABRA = registerItem("wooden_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.WOOD, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
-    public static final Item STONE_MATTOCK = registerItem("stone_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.STONE, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item STONE_DOLABRA = registerItem("stone_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.STONE, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
-    public static final Item COPPER_MATTOCK = registerItem("copper_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.COPPER, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item COPPER_DOLABRA = registerItem("copper_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.COPPER, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
-    public static final Item IRON_MATTOCK = registerItem("iron_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.IRON, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item IRON_DOLABRA = registerItem("iron_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.IRON, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
-    public static final Item GOLDEN_MATTOCK = registerItem("golden_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.GOLD, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item GOLDEN_DOLABRA = registerItem("golden_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.GOLD, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
-    public static final Item DIAMOND_MATTOCK = registerItem("diamond_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.DIAMOND, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item DIAMOND_DOLABRA = registerItem("diamond_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.DIAMOND, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
-    public static final Item NETHERITE_MATTOCK = registerItem("netherite_mattock",
-            properties -> new Item(properties.tool(ToolMaterial.NETHERITE, ModBlockTags.MATTOCK_MINEABLE, 5.0F, -3.0F, 0.0F))
+    public static final Item NETHERITE_DOLABRA = registerItem("netherite_dolabra",
+            properties -> new Item(properties.tool(ToolMaterial.NETHERITE, ModBlockTags.DOLABRA_MINEABLE, 5.0F, -3.0F, 0.0F))
     );
 
     public static final ResourceKey<EquipmentAsset> MORGANITE_ASSET =
@@ -54,12 +54,12 @@ public class ModItems {
     }
 
     private static void modifyOutputMattocks(FabricCreativeModeTabOutput output) {
-        output.accept(WOODEN_MATTOCK);
-        output.accept(STONE_MATTOCK);
-        output.accept(COPPER_MATTOCK);
-        output.accept(IRON_MATTOCK);
-        output.accept(GOLDEN_MATTOCK);
-        output.accept(DIAMOND_MATTOCK);
-        output.accept(NETHERITE_MATTOCK);
+        output.accept(WOODEN_DOLABRA);
+        output.accept(STONE_DOLABRA);
+        output.accept(COPPER_DOLABRA);
+        output.accept(IRON_DOLABRA);
+        output.accept(GOLDEN_DOLABRA);
+        output.accept(DIAMOND_DOLABRA);
+        output.accept(NETHERITE_DOLABRA);
     }
 }

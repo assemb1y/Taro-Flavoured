@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "taro-flavoured:stone_mattock"
+        "recipes": "taro-flavoured:wooden_dolabra"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "taro-flavoured:stone_mattock"
+      "taro-flavoured:wooden_dolabra"
     ]
   }
 }

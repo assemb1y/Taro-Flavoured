@@ -26,7 +26,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(recipes, advancements) {
             @Override
             public void buildRecipes() {
-                shaped(RecipeCategory.TOOLS, ModItems.WOODEN_MATTOCK)
+                shaped(RecipeCategory.TOOLS, ModItems.WOODEN_DOLABRA)
                         .pattern("MMM")
                         .pattern(" SM")
                         .pattern(" S ")
@@ -35,7 +35,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.STONE_MATTOCK)
+                shaped(RecipeCategory.TOOLS, ModItems.STONE_DOLABRA)
                         .pattern("MMM")
                         .pattern(" SM")
                         .pattern(" S ")
@@ -44,7 +44,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.COPPER_MATTOCK)
+                shaped(RecipeCategory.TOOLS, ModItems.COPPER_DOLABRA)
                         .pattern("MMM")
                         .pattern(" SM")
                         .pattern(" S ")
@@ -53,7 +53,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.IRON_MATTOCK)
+                shaped(RecipeCategory.TOOLS, ModItems.IRON_DOLABRA)
                         .pattern("MMM")
                         .pattern(" SM")
                         .pattern(" S ")
@@ -62,7 +62,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.GOLDEN_MATTOCK)
+                shaped(RecipeCategory.TOOLS, ModItems.GOLDEN_DOLABRA)
                         .pattern("MMM")
                         .pattern(" SM")
                         .pattern(" S ")
@@ -71,7 +71,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                         .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.DIAMOND_MATTOCK)
+                shaped(RecipeCategory.TOOLS, ModItems.DIAMOND_DOLABRA)
                         .pattern("MMM")
                         .pattern(" SM")
                         .pattern(" S ")
