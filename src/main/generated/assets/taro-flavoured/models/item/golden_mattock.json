@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "taro-flavoured:item/golden_mattock"
+  }
+}

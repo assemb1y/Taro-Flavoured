@@ -1,0 +1,1 @@
+Morganite is a gemstone with an 8.5-9.0 on the mohs scale of hardness, so pretty tough. It's associated with love and compassion, so maybe some kind of regen ability?
